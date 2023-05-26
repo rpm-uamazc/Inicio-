@@ -1,0 +1,241 @@
+ /* Barra de navegación */
+.navbar {
+  background-color: #cf2e2e;
+  border-radius: 5px;
+  margin: 5px;
+  height: 45px;
+  font-size: 100%;
+}
+.navbar-default .navbar-brand {
+    color: black;
+    background: transparent;
+}
+.navbar-default .navbar-brand:hover {
+    background: white;    
+}
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: white;
+    background: transparent;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #3B3B3B;
+    background: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    position: relative;
+}
+.navbar-default .navbar-nav>li>a::before {
+  content: "";
+  position: absolute;
+  left: -5px; /* Ajustar la posición izquierda de la línea */
+  top: 50%; /* Ajustar la posición vertical de la línea */
+  height: 15px; /* Ajustar la altura de la línea */
+  width: 1px; /* Ajustar el ancho de la línea */
+  background-color: white;
+  transform: translateY(-50%); /* Centrar verticalmente la línea */
+}
+.navbar-default .navbar-nav>li>a:hover {/* Color de letra cuando esta el cursor */
+    color: #3B3B3B;
+    background: white;
+}
+/*Panel lateral*/
+.reciente {
+  position: sticky;
+  top: calc(60.5% - 400px);
+}
+.reciente h2 {
+  font-size: 18px;
+  text-align: center;
+  display: inline;
+  border-bottom: 2px solid #cf2e2e;
+}
+}
+.reciente p {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  color: grey;
+}
+.reciente p:hover {
+  color: red;
+}
+.reciente p::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid black;
+  margin-right: 5px;
+  transform: rotate(0deg);
+}
+.rec1 {
+  margin bottom: 20px;
+  clear: right;
+  float: right;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 230px;
+}
+.rec1 p {
+  color: grey;
+}
+.rec2{
+  margin bottom: 20px;
+  clear: right;
+  float: right;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 230px;
+}
+.rec2 p {
+  color: grey;
+}
+.cursos {
+  margin bottom: 20px;
+  clear: right;
+  float: right;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 230px;
+  text-align: center;
+  font-weight: bold;
+}
+.curso{
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+.curso:hover{
+  opacity: 0.5;
+}
+.main {
+  background: transparent;
+  font-size: 14px;
+  border-radius: 5px;
+  max-width: 800px;
+  text-align: justify;
+  padding: 20px; 
+  margin-left: 10px;
+  margin-right: 178px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -150px;
+}
+.main h1 {
+  font-size: 26px;
+}
+.main h3{
+  font|18px
+}
+
+/*Imagen principal*/
+.hero-image {
+    position: relative;
+    margin-bottom: 2em;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-text {
+  position: relative;
+  font-size: 35px;
+  padding-bottom: 0.5em
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: white;
+}
+.bottom-text {
+  position: relative;
+  letter-spacing: 0.065em;
+  line-height: 1em;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+/* Pie de página*/
+#pie1{
+  background: #2a2b2e;
+  position: relative;
+  margin-bottom: 0.05em;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  margin-left: -385px;
+  margin-right: -385px;
+  margin-top: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+.span4{
+   padding-left: 150px;
+}
+.span4 h2 {
+   font-size: 20px;
+}
+.span4 p {
+   font-size: 14px;
+}
+.span5{
+   justify-content: right;
+  padding-left: 400px;
+}
+#pie1 h2{
+  color: white;
+  display: inline;
+  border-bottom: 2px solid #cf2e2e;
+}
+
+#pie2{
+  background: #6a6a6b;
+  position: relative;
+  height: 25px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -385px;
+  margin-right: -385px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#pie2 p {
+  color: lightgrey;
+}
+.lista{
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}

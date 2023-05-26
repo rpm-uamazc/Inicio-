@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>index.knit</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" href="RPM.png">
+<style>
+  .hero-image {
+    background-image: url("css/Imagenes/headerbg.png");
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    /* Añade cualquier otra propiedad de estilo que desees para el contenedor */
+  }
+
+  .image-text {
+    /* Estilos para el texto que se superpone a la imagen */
+  }
+</style>
+
+<div class="hero-image">
+  <div class="image-text">
+    <div class="bottom-text">Relaciones Productivas en México</div>
+    <div class="top-text">Área de Investigación de la UAM Azcapotzalco</div>
+    
+  </div>
+</div>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><div id="logo-container"><img id="logo" style="width: 35px;" src="icon.ico" /></div></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Inicio
+  </a>
+</li>
+<li>
+  <a href="Docencia.html">Docencia</a>
+</li>
+<li>
+  <a href="Investigación.html">Investigación</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Bases de datos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="SCIZM.html">SCIZM</a>
+    </li>
+    <li>
+      <a href="Bases_de_datos.html">Bases de datos</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="Cursos.html">Cursos</a>
+</li>
+<li>
+  <a href="Contacto.html">Contacto</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.facebook.com/rpmUAMazc">
+    <span class="fab fa-facebook-f"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.instagram.com/rpmuamazc/?hl=es-la">
+    <span class="fab fa-instagram"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+<div class="reciente">
+  <div class="rec1">
+  <h2>AVISOS</h2>
+  <p> Se creó la página web </p>
+  <p> Se incorporó el menu para Bases de datos y SCIZM </p>
+  </div>
+  
+  <div class = "rec2">
+  <h2>NOVEDADES</h2>
+      <p>Aqui vamos a agregar lo más reciente.</p>
+      <p>#Aqui deberia decir algo interesante.</p>
+  </div>
+  <div class="cursos">
+  <a href="Cursos.html">
+  <img class="curso"  src="css/Imagenes/Cursos.png" alt="Cursos">
+  <p>¡Entra aquí para ver nuestros cursos!</p>
+  </a>
+</div>
+</div>
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<body>
+<div class="main">
+<div id="quiénes-somos" class="section level3">
+<h3>¿Quiénes somos?</h3>
+<p>Área de investigación del Departamento de Economía de la UAM
+Azcapotzalco, con actividad docente en licenciatura y posgrado.</p>
+</div>
+<div id="nuestro-objetivo" class="section level3">
+<h3>Nuestro objetivo</h3>
+<p>Diagnosticar los principales obstáculos competitivos y
+organizacionales del aparato productivo mexicano; contribuir al diseño
+de políticas específicas que apoyen el desarrollo productivo de
+empresas, y aportar información y análisis conceptual sobre los
+fenómenos asociados a la generación de capacidades y competencias
+productivas.</p>
+</div>
+<div id="nuestro-objeto-de-estudio" class="section level3">
+<h3>Nuestro objeto de estudio</h3>
+<p>Estudio de las transformaciones de la economía mexicana en el
+contexto de la globalización, desde una perspectiva meso-económica y
+considerando aspectos económicos, políticos y sociales.</p>
+<p>Equipo académico de investigación RPM de la Universidad Autónoma
+Metropolitana, Unidad Azcapotzalco.</p>
+</div>
+<div id="equipo" class="section level3">
+<h3>Equipo</h3>
+<div id="jefa-del-área" class="section level4">
+<h4>Jefa del área</h4>
+<p>Dra. Josefina Robles Rodríguez.</p>
+</div>
+<div id="académicos" class="section level4">
+<h4>Académicos</h4>
+<p>Dra. María Beatriz García Castro.<br />
+Dra. Mónica de la Garza Malo.<br />
+Dr. Juan Andrés Godínez Enciso.<br />
+Dr. Jaime Alberto Prudencio Vázquez (ORCID, Google Académico).<br />
+Dr. Edmar Salinas Callejas.<br />
+Dra. Beatriz Paloma Sánchez Cruz.</p>
+</div>
+<div id="ayudantes-de-investigación" class="section level4">
+<h4>Ayudantes de investigación</h4>
+<p>Álvaro Martínez Rodríguez.<br />
+Leonardo Pérez Victorino</p>
+</div>
+<div id="servicio-social" class="section level4">
+<h4>Servicio social</h4>
+<p>Susana Cuevas.<br />
+Guadalupe Icel.</p>
+</div>
+</div>
+</div>
+</body>
+
+<div id="pie">
+  <div id="pie1">
+    <div class="span4">
+      <div class="widget_title">
+      <h2>Contacto</h2>
+      </div>
+    <p></p>
+    <p class="widget_con_detail">
+    <i class="fa fa-home icon-spacing"></i> 
+		Av. San Pablo No. 180 Col. Reynosa Tamaulipas C.P. 02200 Alcaldía Azcapotzalco Ciudad de México	</p>
+		<p class="widget_con_detail">
+		Oficinas de Relaciones Productivas en México: Edificio H-O ,primer piso, cubículo Relaciones Productivas en México.
+		</p>
+		<p class="widget_con_detail">
+    	<i class="fa fa-phone icon-spacing"></i> 
+    	Teléfono: 5318 9130, ext. 117.		
+    </p>
+		<p class="widget_con_detail">
+		<i class="fa fa-envelope icon-spacing"></i> 
+		rpm.azc@gmail.com		
+		</p>
+    </div>
+  <div class="span5">
+    <div class="wp-block-image">
+    <figure class="alignright size-full is-resized">
+    <a href="https://www.azc.uam.mx/" target="_blank" rel=" noreferrer noopener">
+    <img decoding="async" loading="lazy" src="https://sociologiaurbana.azc.uam.mx/wp-content/uploads/2023/04/logo_UAMazcapo_BN.png" alt="" class="wp-image-8202" width="245" height="82" srcset="https://sociologiaurbana.azc.uam.mx/wp-content/uploads/2023/04/logo_UAMazcapo_BN.png 361w, https://sociologiaurbana.azc.uam.mx/wp-content/uploads/2023/04/logo_UAMazcapo_BN-300x101.png 300w" sizes="(max-width: 245px) 100vw, 245px">
+</a>
+</figure>
+</div>
+</div>			
+		</div>
+  <div id="pie2">
+  <p> Creditos a martinez.alvaro61@gmail.com </p>
+  </div>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

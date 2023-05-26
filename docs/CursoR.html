@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CursoR.knit</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" href="RPM.png">
+<style>
+  .hero-image {
+    background-image: url("css/Imagenes/headerbg.png");
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    /* Añade cualquier otra propiedad de estilo que desees para el contenedor */
+  }
+
+  .image-text {
+    /* Estilos para el texto que se superpone a la imagen */
+  }
+</style>
+
+<div class="hero-image">
+  <div class="image-text">
+    <div class="bottom-text">Relaciones Productivas en México</div>
+    <div class="top-text">Área de Investigación de la UAM Azcapotzalco</div>
+    
+  </div>
+</div>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><div id="logo-container"><img id="logo" style="width: 35px;" src="icon.ico" /></div></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Inicio
+  </a>
+</li>
+<li>
+  <a href="Docencia.html">Docencia</a>
+</li>
+<li>
+  <a href="Investigación.html">Investigación</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Bases de datos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="SCIZM.html">SCIZM</a>
+    </li>
+    <li>
+      <a href="Bases_de_datos.html">Bases de datos</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="Cursos.html">Cursos</a>
+</li>
+<li>
+  <a href="Contacto.html">Contacto</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.facebook.com/rpmUAMazc">
+    <span class="fab fa-facebook-f"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.instagram.com/rpmuamazc/?hl=es-la">
+    <span class="fab fa-instagram"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+<div class="reciente">
+  <div class="rec1">
+  <h2>AVISOS</h2>
+  <p> Se creó la página web </p>
+  <p> Se incorporó el menu para Bases de datos y SCIZM </p>
+  </div>
+  
+  <div class = "rec2">
+  <h2>NOVEDADES</h2>
+      <p>Aqui vamos a agregar lo más reciente.</p>
+      <p>#Aqui deberia decir algo interesante.</p>
+  </div>
+  <div class="cursos">
+  <a href="Cursos.html">
+  <img class="curso"  src="css/Imagenes/Cursos.png" alt="Cursos">
+  <p>¡Entra aquí para ver nuestros cursos!</p>
+  </a>
+</div>
+</div>
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<body>
+<div id="curso-software-r" class="section level3 main">
+<h3>Curso Software R</h3>
+<div
+id="curso-de-actualización-técnicas-de-análisis-de-datos-espaciales-con-software-libre-r"
+class="section level4">
+<h4>Curso de actualización: Técnicas de análisis de datos espaciales con
+software libre R</h4>
+<div id="sesión-1" class="section level5">
+<h5>SESIÓN 1</h5>
+<p><strong>Objetivos</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Que el asistente comprenda que las ciencias regionales son un
+campo de confluencia de múltiples disciplinas que comparten un interés
+común: el estudio de la compleja relación entre los entornos (el
+espacio) y los fenómenos sociales.</p></li>
+<li><p>Que el asistente identifique las fuentes de información oficial
+para el análisis espacial divididas, principalmente, en:</p>
+<ul>
+<li>Estadísticas: demográficas (Censos y conteos de población y
+vivienda, Encuesta intercensal, Inventario Nacional de vivienda);
+económicas (Censos Económicos, DENUE, encuestas económicas: ENIGH, ENOE
+con representatividad para algunas ciudades)</li>
+<li>Geográficas: Marco geoestadístico nacional (descarga de la versión
+septiembre 2019) y el proyecto básico de información 2017 del mapa
+digital.</li>
+</ul></li>
+<li><p>Que el asistente sea capaz de depurar la información descargada
+para que sea susceptible de utilizarse en un SIG.</p></li>
+<li><p>Que el asistente conozca y utilice el procedimiento “Unión” en
+QGIS con base en el cual puede armar sus propias capas de
+información.</p></li>
+</ol>
+<p><strong>Bases de datos utilizadas</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/15-37xntCKG95_ONAJfsL8htCyIbqsPtY/view?usp=sharing">Cartografía
+Zona Metropolitana del Valle de México</a></li>
+<li><a
+href="https://drive.google.com/file/d/1AObP8YOuU4OIEovdmD1F1ybn1pCAUUgS/view?usp=sharing">Población
+y educación de la Encuesta Intercensal 2015</a></li>
+<li><a
+href="https://drive.google.com/file/d/1v7bUrtu1uVGDhqaTNhMlL9hVAEkTieQH/view?usp=sharing">Variables
+Censos Económicos 2019</a></li>
+<li><a
+href="https://drive.google.com/file/d/19Z_FSfj9Dzf2aXAmvLhZXFAab4Msac2I/view?usp=sharing">Base
+para unión en QGIS</a></li>
+<li><a
+href="https://drive.google.com/file/d/1osM3r-vkxerFlSCdbDFT9kkQoxhVrVrM/view?usp=sharing">Resultado
+de la unión en QGIS</a></li>
+</ul>
+<p><strong>Grabación de las sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1C7lXLj3gxYC-CSwl46uaK_OUDJCqFoC5/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1hD67yn4gZyMr-H6v-fMowXN2WmbZgEXA/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+<p><strong>Videos recomendados</strong></p>
+<p><a href="https://youtu.be/g88ZYD429oo">Luc Anselin: orígenes y
+desarrollo de la ciencia regional</a></p>
+</div>
+<div id="sesión-2" class="section level5">
+<h5>SESIÓN 2</h5>
+<p><strong>Objetivos</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Que los asistentes comprendan y repliquen el proceso de
+instalación de R y R Studio</p></li>
+<li><p>Que los asistentes identifiquen cada una de las partes y
+funciones que integran la interfaz de R Studio y sean capaces de
+interactuar con ellas.</p></li>
+<li><p>Que los asistentes comiencen a escribir líneas de código para
+crear objetos e interactuar con ellos. Que los asistentes comprendan qué
+son los “paquetes de R” y cómo instalarlos y llamarlos a la sesión de
+R.</p></li>
+<li><p>Que los asistentes conozcan y utilicen los comandos para cargar y
+guardar bases de datos en la sesión de R y comiencen a interactuar con
+la base de datos cargada a través de comandos diversos.</p></li>
+</ol>
+<p><strong>Bases de datos utilizadas</strong></p>
+<p>Las bases de datos utilizadas corresponden a la información económica
+de los 417 municipios metropolitanos del país, según la delimitación de
+CONAPO (2018).</p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1jpd669jTnqWfYV-X1v41FTju568UJ677/view?usp=sharing">Bases
+de datos e instrucciones</a></li>
+<li><a
+href="https://drive.google.com/file/d/1-gtacxN0psw4FYPWZtldQOw_2cwvvOqi/view?usp=sharing">Resultado
+unión (apilado)</a></li>
+</ul>
+<p><strong>Grabación de las sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1VFbwYQcydaWipDrr3tZr3hweykC7CRZv/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1-WIw2a-PxVS3XTRoVG0Iweqd_DEj1wS6/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-3" class="section level5">
+<h5>SESIÓN 3</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Comprenda el enfoque de análisis exploratorio de datos como una
+herramienta para familiarizarse con la base de datos utilizada,
+describir y analizar la distribución de las variables en juego y
+encontrar asociaciones entre ellas.</p></li>
+<li><p>Conozca y utilice en R estadísticos de resumen e instrumentos
+gráficos que describan y sinteticen el comportamiento de las variables
+en juego</p></li>
+</ol>
+<p><strong>Base de datos utilizada</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1zqJipT3IC6bqBKjmNr5pEgwQwGPTGOTM/view?usp=sharing">Pruebas
+cognitivas</a></li>
+<li><a
+href="https://drive.google.com/file/d/1IRBXJeCJccRyHQBf5bjrTOGVgwaHYBGU/view?usp=sharing">Instrucciones
+en R</a></li>
+</ul>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1VFbwYQcydaWipDrr3tZr3hweykC7CRZv/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1-WIw2a-PxVS3XTRoVG0Iweqd_DEj1wS6/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-4" class="section level5">
+<h5>SESIÓN 4</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Recuerde las características y supuestos del modelo de regresión
+lineal, así como su utilidad e interpretación de sus
+resultados.</p></li>
+<li><p>Conozca los comandos y secuencia para el cálculo de modelos
+lineales en R, así como del diagnóstico de regresión.</p></li>
+</ol>
+<p><strong>Base de datos utilizada</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1zqJipT3IC6bqBKjmNr5pEgwQwGPTGOTM/view?usp=sharing">Pruebas
+cognitivas</a></li>
+<li><a
+href="https://drive.google.com/file/d/1oaIDNu9GESMBbRX_2suW8dEQKYBhUve5/view?usp=sharing">Instrucciones
+en R</a></li>
+<li><a
+href="https://drive.google.com/file/d/1iN9dl19H_W-durpHyoSH2Lw_9th53xut/view?usp=sharing">Gráfica
+interactiva</a></li>
+</ul>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1A0_vdFKPH_8GvXiTmKUhzlMPEiU0l5Nv/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1JQQxdqLLtX_gq7pU-umcNNwyeDhl5VMU/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-5" class="section level5">
+<h5>SESIÓN 5</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li>Ubique las principales medidas usadas en economía urbana y regional
+para el cálculo de Desigualdad regional</li>
+<li>Sea capaz de aplicar estas medidas en R a través del paquete
+REAT</li>
+</ol>
+<p><strong>Instrucciones</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1LuKNMSYLy346g65VSTAO_1vdXODVqL3-/view?usp=sharing">HTML
+con las indicaciones de la sesión</a></li>
+</ul>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/17Of-HWcBM-KMB5oa3n6Bn7YDo6HIETfD/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1QP5Ky79gYMRChxjGVM1SRnAOPOmVfsyJ/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-6" class="section level5">
+<h5>SESIÓN 6</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li>Ubique las principales medidas usadas en economía urbana y regional
+para el cálculo de</li>
+</ol>
+<ul>
+<li>Convergencia regional</li>
+<li>Medidas de aglomeración</li>
+<li>Crecimiento regional y análisis shift-share</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Sea capaz de aplicar estas medidas en R a través del paquete
+REAT</li>
+</ol>
+<p><strong>Instrucciones</strong></p>
+<p><a
+href="https://drive.google.com/file/d/1SXK9mcgPZDtXeYnCl4HImWAzn86JJQiA/view?usp=sharing">HTML
+con las indicaciones de la sesión</a></p>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1u3Ud7WEP4u5a_1q5yT4uI45B3n6JJ-u7/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1zYWEMENS_g4_qm55yBYoBtBICVrxWHxn/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-7" class="section level5">
+<h5>SESIÓN 7</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Conozca algunos de los tipos de mapas coropléticos más comunes
+usados para la representación de información espacialmente
+referenciada.</p></li>
+<li><p>Aprenda cómo construir dichos mapas en R a través de los paquetes
+sf, tmap, RColorBrewer y cartogram.</p></li>
+</ol>
+<p><strong>Base de datos utilizada</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1NPhSzJx6rL6F73Dai7Wxj8-6_YKgzNO1/view?usp=sharing">Valle
+de México: servicios de salud</a></li>
+<li><a
+href="https://drive.google.com/file/d/1U31NymzFeFQmCWuI8MxV4OJ-ei9idjR2/view?usp=sharing">Instrucciones
+en R</a></li>
+</ul>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1W2eK-_19URlK8ANNYa-UA4HarrX0LG-W/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1_a20bbngVCCTexAoEddYBfvsKy0HUSb_/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-8" class="section level5">
+<h5>SESIÓN 8</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Se familiarice con la estructura de una función en R.</p></li>
+<li><p>Aplique una función para la construcción de un mapa
+personalizado.</p></li>
+</ol>
+<p><strong>Base de datos utilizada</strong></p>
+<p><a
+href="https://drive.google.com/file/d/1NPhSzJx6rL6F73Dai7Wxj8-6_YKgzNO1/view?usp=sharing">Valle
+de México: servicios de salud</a> <a
+href="https://drive.google.com/file/d/1U31NymzFeFQmCWuI8MxV4OJ-ei9idjR2/view?usp=sharing">Instrucciones
+en R</a></p>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1PX4zFf7EzBDEbofZXXsYeQQV6FX9eIJH/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1x1kKXmzYxLTdWl22znoeec-yV0qUP7XV/view?usp=sharing">Segunda
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1EG1jJyQuKfMqDk2jgDE43z6qpcgtjUA6/view?usp=sharing">Formato
+propuesta crítica</a></li>
+</ul>
+</div>
+<div id="sesión-9" class="section level5">
+<h5>SESIÓN 9</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Conozca el concepto de autocorrelación espacial y sus
+implicaciones en el análisis de datos</p></li>
+<li><p>Comprenda la manera en que la estructura espacial es captada
+mediante la matriz de pesos espaciales y sus diferentes tipos.</p></li>
+<li><p>Aprenda a construir matrices de pesos espaciales en R</p></li>
+</ol>
+<p><strong>Base de datos utilizada</strong></p>
+<p><a
+href="https://drive.google.com/file/d/1NPhSzJx6rL6F73Dai7Wxj8-6_YKgzNO1/view?usp=sharing">Valle
+de México: servicios de salud</a> <a
+href="https://drive.google.com/file/d/1hAD9EJVicNhOLN_JtA1Ha1dzaW87CYsb/view?usp=sharing">Instrucciones
+en R</a></p>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1H6i-1lUfXPCpCPynVQis_rr1FOLVgFc5/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1SXbZiMnVfwxYBkj5knulXdFFeh_IwAdf/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+</div>
+<div id="sesión-10" class="section level5">
+<h5>SESIÓN 10</h5>
+<p><strong>Objetivos</strong></p>
+<p>Que el asistente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Recuerde algunas de las funciones revisadas durante el curso en
+un ejercicio recopilatorio.</p></li>
+<li><p>Identifique la secuencia para análisis el análisis de información
+espacialmente referenciada y sea capaz de elegir entre un modelo de
+error espacial o de rezago espacial a partir de las pruebas de
+diagnóstico.</p></li>
+<li><p>A partir de un modelo lineal con MCO, estime en R las pruebas de
+diagnóstico entre dos modelos alternativos para el tratamiento de
+correlación espacial.</p></li>
+</ol>
+<p><strong>Base de datos utilizada</strong></p>
+<p><a
+href="https://drive.google.com/file/d/1rF9oFmP54HmQX7zWOr25I3eQeZUFnhRB/view?usp=sharing">Columbus</a>
+<a
+href="https://drive.google.com/file/d/1_gJxJAzUol8KYpMLXCjsKRTUteXhN8oj/view?usp=sharing">Instrucciones
+en R</a></p>
+<p><strong>Grabación de la sesión</strong></p>
+<ul>
+<li><a
+href="https://drive.google.com/file/d/1UGoO-Y-hxS3-uylpmpfyvyDXg7dJmTHj/view?usp=sharing">Primera
+parte</a></li>
+<li><a
+href="https://drive.google.com/file/d/1u7N-6l6yc7c-5mFiJj0URWWIbAgK5l0l/view?usp=sharing">Segunda
+parte</a></li>
+</ul>
+<p>Recuerde que, para obtener su constancia, debe:</p>
+<ol style="list-style-type: decimal">
+<li>Realizar una reflexión sobre la utilidad de las herramientas
+aprendidas y redactarlo en este <a
+href="https://drive.google.com/file/d/1EG1jJyQuKfMqDk2jgDE43z6qpcgtjUA6/view?usp=sharing">formato</a>
+y enviarlo al correo: <a href="mailto:japv@azc.uam.mx"
+class="email">japv@azc.uam.mx</a>.</li>
+<li>Responder este <a
+href="https://forms.gle/93CA4MxKnzNdyfSR8">formulario</a> sobre su
+apreciación del curso.</li>
+</ol>
+</div>
+</div>
+</div>
+</body>
+
+<div id="pie">
+  <div id="pie1">
+    <div class="span4">
+      <div class="widget_title">
+      <h2>Contacto</h2>
+      </div>
+    <p></p>
+    <p class="widget_con_detail">
+    <i class="fa fa-home icon-spacing"></i> 
+		Av. San Pablo No. 180 Col. Reynosa Tamaulipas C.P. 02200 Alcaldía Azcapotzalco Ciudad de México	</p>
+		<p class="widget_con_detail">
+		Oficinas de Relaciones Productivas en México: Edificio H-O ,primer piso, cubículo Relaciones Productivas en México.
+		</p>
+		<p class="widget_con_detail">
+    	<i class="fa fa-phone icon-spacing"></i> 
+    	Teléfono: 5318 9130, ext. 117.		
+    </p>
+		<p class="widget_con_detail">
+		<i class="fa fa-envelope icon-spacing"></i> 
+		rpm.azc@gmail.com		
+		</p>
+    </div>
+  <div class="span5">
+    <div class="wp-block-image">
+    <figure class="alignright size-full is-resized">
+    <a href="https://www.azc.uam.mx/" target="_blank" rel=" noreferrer noopener">
+    <img decoding="async" loading="lazy" src="https://sociologiaurbana.azc.uam.mx/wp-content/uploads/2023/04/logo_UAMazcapo_BN.png" alt="" class="wp-image-8202" width="245" height="82" srcset="https://sociologiaurbana.azc.uam.mx/wp-content/uploads/2023/04/logo_UAMazcapo_BN.png 361w, https://sociologiaurbana.azc.uam.mx/wp-content/uploads/2023/04/logo_UAMazcapo_BN-300x101.png 300w" sizes="(max-width: 245px) 100vw, 245px">
+</a>
+</figure>
+</div>
+</div>			
+		</div>
+  <div id="pie2">
+  <p> Creditos a martinez.alvaro61@gmail.com </p>
+  </div>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
