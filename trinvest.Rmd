@@ -1,0 +1,21 @@
+<body>
+  <div class="main">
+  
+### Trabajos de Investigación
+
+- [Dra. Mónica de la Garza Malo.](Monica.html)
+
+- [Dra. María Beatriz García Castro.](Beatriz.html)
+
+- [Dr. Juan Andrés Godínez Enciso.](Andres.html)
+
+- [Dr. Jaime Alberto Prudencio Vázquez.](Jaime.html)
+
+- [Dr. Edmar Salinas Callejas.](Edmar.html)
+
+- [Dra. Beatriz Paloma Sánchez Cruz.](Paloma.html)
+
+- [Dra. Josefina Robles Rodríguez.](Josefina.html)
+
+  </div>
+</body>

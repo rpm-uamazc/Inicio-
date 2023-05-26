@@ -1,0 +1,102 @@
+<html>
+
+<body>
+  <div class="main">
+<h1 > Sistema de Consulta de Información de Zonas Metropolitanas (SCIZM)</h1>
+<h3> ¿Qué es el SCIZM?</h3>
+
+<p> Es una opción que te permite conocer aspectos socidemográficos y económicos sobre cada una de las 76 zonas metropolitanas de México. </p>
+
+<h3> ¿Qué espero encontrar aquí?</h3>
+
+<p> Puedes elegir de una lista de claves alguna de las 76 zonas metropolitanas. Cada opción abre una nueva página con información especifica de la zona elegida. Además, encontraras el link para poder bajar y consultar la base completa por tu cuenta.</p>
+
+  <div class="lista">
+  <form>
+<h3> Selecciona una zona metropolitana </h3>
+
+<select onchange="if(this.value!='')window.open(this.value)">
+
+  <option value="htmlZM\\1.01.html">1.01</option>
+  <option value="htmlZM\\2.01.html">2.01</option>
+  <option value="htmlZM\\2.02.html">2.02</option>
+  <option value="htmlZM\\2.03.html">2.03</option>
+  <option value="htmlZM\\3.01.html">3.01</option>
+  <option value="htmlZM\\4.01.html">4.01</option>
+  <option value="htmlZM\\5.04.html">5.04</option>
+  <option value="htmlZM\\5.02.html">5.02</option>
+  <option value="htmlZM\\5.01.html">5.01</option>
+  <option value="htmlZM\\5.03.html">5.03</option>
+  <option value="htmlZM\\6.02.html">6.02</option>
+  <option value="htmlZM\\6.01.html">6.01</option>
+  <option value="htmlZM\\7.02.html">7.02</option>
+  <option value="htmlZM\\7.01.html">7.01</option>
+  <option value="htmlZM\\8.01.html">8.01</option>
+  <option value="htmlZM\\8.02.html">8.02</option>
+  <option value="htmlZM\\8.03.html">8.03</option>
+  <option value="htmlZM\\8.04.html">8.04</option>
+  <option value="htmlZM\\9.01.html">9.01</option>
+  <option value="htmlZM\\10.01.html">10.01</option>
+  <option value="htmlZM\\22.01.html">22.01</option>
+  <option value="htmlZM\\11.01.html">11.01</option>
+  <option value="htmlZM\\11.02.html">11.02</option>
+  <option value="htmlZM\\11.03.html">11.03</option>
+  <option value="htmlZM\\11.04.html">11.04</option>
+  <option value="htmlZM\\16.01.html">16.01</option>
+  <option value="htmlZM\\11.05.html">11.05</option>
+  <option value="htmlZM\\12.01.html">12.01</option>
+  <option value="htmlZM\\12.02.html">12.02</option>
+  <option value="htmlZM\\13.02.html">13.02</option>
+  <option value="htmlZM\\13.03.html">13.03</option>
+  <option value="htmlZM\\13.01.html">13.01</option>
+  <option value="htmlZM\\14.01.html">14.01</option>
+  <option value="htmlZM\\14.02.html">14.02</option>
+  <option value="htmlZM\\14.03.html">14.03</option>
+  <option value="htmlZM\\15.02.html">15.02</option>
+  <option value="htmlZM\\15.01.html">15.01</option>
+  <option value="htmlZM\\16.02.html">16.02</option>
+  <option value="htmlZM\\16.03.html">16.03</option>
+  <option value="htmlZM\\17.01.html">17.01</option>
+  <option value="htmlZM\\17.02.html">17.02</option>
+  <option value="htmlZM\\18.01.html">18.01</option>
+  <option value="htmlZM\\19.01.html">19.01</option>
+  <option value="htmlZM\\20.01.html">20.01</option>
+  <option value="htmlZM\\20.02.html">20.02</option>
+  <option value="htmlZM\\21.01.html">21.01</option>
+  <option value="htmlZM\\21.03.html">21.03</option>
+  <option value="htmlZM\\21.02.html">21.02</option>
+  <option value="htmlZM\\23.01.html">23.01</option>
+  <option value="htmlZM\\23.02.html">23.02</option>
+  <option value="htmlZM\\24.01.html">24.01</option>
+  <option value="htmlZM\\24.02.html">24.02</option>
+  <option value="htmlZM\\25.01.html">25.01</option>
+  <option value="htmlZM\\25.02.html">25.02</option>
+  <option value="htmlZM\\26.01.html">26.01</option>
+  <option value="htmlZM\\26.02.html">26.02</option>
+  <option value="htmlZM\\26.03.html">26.03</option>
+  <option value="htmlZM\\27.01.html">27.01</option>
+  <option value="htmlZM\\28.05.html">28.05</option>
+  <option value="htmlZM\\28.02.html">28.02</option>
+  <option value="htmlZM\\28.03.html">28.03</option>
+  <option value="htmlZM\\28.04.html">28.04</option>
+  <option value="htmlZM\\28.01.html">28.01</option>
+  <option value="htmlZM\\29.01.html">29.01</option>
+  <option value="htmlZM\\30.01.html">30.01</option>
+  <option value="htmlZM\\30.07.html">30.07</option>
+  <option value="htmlZM\\30.03.html">30.03</option>
+  <option value="htmlZM\\30.05.html">30.05</option>
+  <option value="htmlZM\\30.08.html">30.08</option>
+  <option value="htmlZM\\30.06.html">30.06</option>
+  <option value="htmlZM\\30.02.html">30.02</option>
+  <option value="htmlZM\\30.04.html">30.04</option>
+  <option value="htmlZM\\31.01.html">31.01</option>
+  <option value="htmlZM\\32.01.html">32.01</option>
+  
+</select>
+</form>
+  </div>
+<p>Si no conoces las claves de la zona metropolitana que buscas, <a href="htmlZM\\ZM.html" target="_blank">!da clic aquí!</a>.</p>
+<p> <a href="https://docs.google.com/spreadsheets/d/1DFuaziPQsspFiGs7d0UvUT5TVWJuemNt113SrDESkSs/edit#gid=1789379895" target="_blank">Aqui</a> puedes consultar toda la información disponible en el sitio sobre zonas metropolitanas.
+|
+</div>
+</body>  

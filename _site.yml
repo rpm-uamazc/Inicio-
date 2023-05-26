@@ -1,0 +1,41 @@
+name: "Relaciones productivas en México"
+output_dir: "docs"
+navbar:
+  title: '<div id="logo-container"><img id="logo" style="width: 35px;" src="icon.ico" /></div>'
+  left:
+    - text: "Inicio"
+      href: index.html
+      icon: fa-home
+    - text: "Docencia"
+      href: Docencia.html
+    - text: "Investigación"
+      href: Investigación.html
+    - text: "Bases de datos"
+      menu:
+          - text: "SCIZM"
+            href: SCIZM.html
+          - text: "Bases de datos"
+            href: Bases_de_datos.html
+    - text: "Cursos"
+      href: Cursos.html
+    - text: "Contacto"
+      href: Contacto.html
+  right:
+    - text: 
+      href: https://www.facebook.com/rpmUAMazc
+      icon: fab fa-facebook-f
+    - text: 
+      href: https://www.instagram.com/rpmuamazc/?hl=es-la
+      icon: fab fa-instagram
+
+output: 
+  html_document:
+    css: css/style.css
+    includes:
+      in_header: 
+      - header.html
+      - Pimagen.html
+      after_body:
+      - pie_pagina.html
+      before_body:
+      - Reciente.html

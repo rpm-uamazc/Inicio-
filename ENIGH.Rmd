@@ -1,0 +1,16 @@
+<body>
+  <div class="main">
+
+### ENIGH: Tabulados básicos seleccionados y bases geográficas
+
+Hemos seleccionado un conjunto de 13 de los 23 cuadros que componen los tabulados básicos de la ENIGH 2018 y 2020 respectivamente, publicadas por INEGI . Seleccionamos aquellos que contenían, a nuestro juicio, la información más relevante sobre el ingreso y el gasto de los hogares mexicanos, así como su forma de clasificación. 
+
+Cada una de las bases de datos que se desarrollaron se encuentran listas para ser integradas a un Sistema de Información Geográfica (SIG). A modo de ejemplo, ofrecemos al usuario dos cuadros ya incorporados a un formato geográfico en un archivo SHP: Cuadro 3.5A ,y Cuadro 4.1 (ambos para la ENIGH 2018 y 2020) los que pueden ser desplegados en cualquier SIG.
+
+- [Selección ENIGH 2018 ](https://drive.google.com/file/d/1gZ9WQwxUUz6O19Kvr7F3biK7RYralE6i/view?usp=sharing)
+- [Selección ENIGH 2020](https://drive.google.com/file/d/1wx8KyAwo0tAaVQgIRyXUlDGdlpxlhDf2/view?usp=sharing)
+- [Documentación metodológica 2018](https://drive.google.com/file/d/1QzhoDo5FzMXg7UN4lzp1QGXp6cw3t70_/view?usp=sharing)
+- [Documentación metodológica 2020](https://drive.google.com/file/d/1hZ-GGeUQuP0rPjX5FIshvnkdrcFpiufm/view?usp=sharing)
+  </div>
+</body>
+

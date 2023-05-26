@@ -1,0 +1,16 @@
+<body>
+  <div class="main">
+  
+### Dra. Beatriz Paloma Sánchez Cruz
+
+#### Publicaciones
+
+- Sánchez, B. (2021) “Internacionalización y configuración de la  industria manufacturera en la región Norte de México”, en Levy, N. y  Bustamante, J. (Coordinadores) Movimiento de capitales, crisis  sistémicas y alternativas de crecimiento, Primera edición, FE UNAM,  México. 
+- Sánchez, B. (2021) “La política industrial en México bajo el modelo  liderado por las exportaciones. Evolución, perspectivas y retos”, en  Martínez, O. y García, G. (Coordinadores) Condiciones de la  economía mexicana: un análisis frente a su posible transformación,  Primera edición, CSH-UAM-A, México. 
+- Sánchez, B. (2019) “Internacionalización del capital en México:  tendencias en el desarrollo industrial regional, 1990-2018”, en Levy,  N. y Bustamante, J. (Coordinadores) América Latina: movimiento de  capitales y su efecto sobre el modelo liderado por las exportaciones,  Primera edición, FE UNAM, México. 
+ - Sánchez, B. y Bustamante, J. (2019) “Articulación del sector industrial  al mercado mundial. Efectos sobre la industria manufacturera y la  organización del trabajo”, en Fujigaki, E. y Escamilla, A. (Coordinadores) México en el contexto internacional del Siglo XX.  Estudios sobre agricultura, industria y comercio, Primera edición, FE  UNAM, México. 
+- Sánchez, B. (2021) “Empresas transnacionales y encadenamientos  productivos en la manufactura mexicana. El caso de los clúster  automotriz y eléctrico electrónico en la región norte de México, 1990- 2021. 
+
+  </div>
+</body>
+

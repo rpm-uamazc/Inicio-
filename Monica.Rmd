@@ -1,0 +1,20 @@
+<body>
+  <div class="main">
+  
+### Dra. Mónica de la Garza Malo
+  
+#### Publicaciones
+  
+- De la Garza, Mónica. (s.f.). “El Problema de la integración y eslabonamiento de la industria mexicana”. En Competitividad Industrial en México ante la concurrencia internacional. FCE.
+- De la Garza, Mónica. (s.f.). “Mexico´s industrial policy and free trade: problem´s of Sustainable Development”. En The Regional lmpact of NAFTA in the XXI Century: The Mexican Perspective (Memoria). UAM-A-Tulane University. .
+- De la Garza, Mónica. (1983). “Evolución del sector manufacturero Mexicano en la década de los ochentas”. En Cuadernos Docente No. 61. UAM-A.
+- De la Garza, Mónica. (1985). “Bloques de interdependencia: aplicación a un modelo Ghosh”. En M. y. De la Garza, Bloques de interdependencia: Mercado de Trabajo y Estudios de Caso. UAM-A.
+- De la Garza, Mónica. (1985). “Fibras sintéticas: núcleo técnico económico del complejo textil”. En E. y. Lifschitz, Eslabonamientos Productivos y Mercados Oligopólicos. UAM-A.
+- De la Garza, Mónica. (1988). “Evolución de los principales complejos sectoriales de México 1970- 1980”. En M. (. De la Garza, Eslabonamientos Productivos en Argentina, Brasil y México (II Seminario Internacional). UAM-A.
+- De la Garza, Mónica. (1988). Los Eslabonamientos Productivos: una propuesta metodológica para avanzar en la integración del Sector Social Mexicano”. En SPP/STPS/CTM/OIT/ONU. Coloquio Internacional de Desarrollo Equitativo y fortalecimiento del Sector Social de la Economía. México.
+- De la Garza, Mónica. (1990). “Sistema integrado de Producción Textil Mexicano”. En América Latina: inversión para el crecimiento equilibrado. . Santiago de Chile: PREALC, OIT, PNUD.
+- De la Garza, Mónica. (Julio de 1991). “El Desarrollo Industrial Mexicano y las estrategias de Crecimiento Económico 1970-1982”.
+- De la Garza, Mónica. (1999.). “Globalización y Política Industrial en México”,. México y el Mundo. Memoria de la IX Reunión ANUIES-PROFMEX. 
+- De la Garza, Mónica. (2015). La escolaridad en la determinación de los ingresos en México en la década de 1990. Barcelona: Universidad Autónoma de Barcelona.
+  </div>
+</body>

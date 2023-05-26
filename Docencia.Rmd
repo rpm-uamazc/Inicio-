@@ -1,0 +1,35 @@
+<body>
+  <div class="main">
+### Docencia
+
+El modelo de la Universidad Autónoma Metropolitana permite la articulación de la investigación y la docencia a través de la figura del profesor-investigador. En nuestra Área, la labores docente abarca la licenciatura y el posgrado.
+
+### __Oferta educativa__ 
+
+#### ___Licenciatura___
+
+- Eje curricular de Microeconomía
+- Economía de la Innovación: empresas, redes y territorio: es una de las      Áreas de Concentración (AC) en la Licenciatura de Economía que se cursa     los dos últimos trimestres. Al cursar esta AC, el alumno es capaz de        comprender la relación que tiene la innovación y el territorio en los       procesos de desarrollo económico y social, además puede utilizar las        herramientas básicas para medir su impacto en las distintas dinámicas       locales y regionales.
+  
+  Las Unidades de Enseñanza-Aprendizaje (UEA) son:
+
+  XI trimestre
+  
+  - [Economía de la Innovación.](https://drive.google.com/drive/folders/1xgWIAxoaIwFoFKtECbEgqx9cG-zB73W2)
+  - [Teorías de la Empresa.](https://drive.google.com/drive/folders/1Q3xYLqd6N7nRCdyCpXYKJRCxf4NTZgZi)
+  - [Redes, Cadenas de Valor y Estructuras Industriales Regionales.](https://drive.google.com/drive/folders/1x_RiOdJq5FFnFnGVU9iGsjRXOI8MmXd5?usp=sharing)
+  - [Economía Espacial](https://drive.google.com/drive/folders/1CSVhpMZpqG4UUBJiSCKiWPOo5l1q1DWU?usp=sharing).
+  - [La Investigación: Técnicas y Procedimientos.](https://drive.google.com/drive/folders/1-NDSTZ63Id6rTE_9OfWxNk8KdYKS1vDZ?usp=sharing)
+  
+  XII trimestre
+  
+  - [Metodología para el Manejo de Datos de Innovación.](https://drive.google.com/drive/folders/1T_CZXQItY97yE-TpZUkUNL5VLiXUesBC?usp=sharing)
+  - [Seminario de Economía de la Innovación.](https://drive.google.com/drive/folders/1tv_7_VoBx1kYHI2gFHQ_mYD2hmT4J5DP?usp=sharing)
+  - [Temas Selectos de Empresas, Redes y Territorio I :Redes y Territorio.](https://drive.google.com/drive/folders/1gTFzYfQB4WWyLDK0yetoHllakI9gmhB9?usp=sharing)
+  - [Temas Selectos de Empresas, Redes y Territorio II: Análisis de              información georreferenciada y econometría espacial.](https://drive.google.com/drive/folders/1-Uge1rlRqLeWi1HDKtL86W1NdAX3vMPZ?usp=sharing)
+
+#### ___Posgrado___
+
+  - [Línea de especialidad en la Maestría en Economía: empresas, finanzas e      innovación.](https://drive.google.com/file/d/1y-uNJFTmx6hmIOJ2-41CoBCXh5iN5Jes/view)
+    </div>
+</body>

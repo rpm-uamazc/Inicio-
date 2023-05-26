@@ -1,0 +1,261 @@
+<body>
+  <div class="main">
+  
+### Curso Software R
+#### Curso de actualización: Técnicas de análisis de datos espaciales con software libre R
+
+##### SESIÓN 1
+
+__Objetivos__
+
+1. Que el asistente comprenda que las ciencias regionales son un campo de confluencia de múltiples disciplinas que comparten un interés común: el estudio de la compleja relación entre los entornos (el espacio) y los fenómenos sociales.
+
+2. Que el asistente identifique las fuentes de información oficial para el análisis espacial divididas, principalmente, en:
+
+    + Estadísticas: demográficas (Censos y conteos de población y vivienda, Encuesta intercensal, Inventario Nacional de vivienda); económicas (Censos Económicos, DENUE, encuestas económicas: ENIGH, ENOE con representatividad para algunas ciudades)
+    + Geográficas: Marco geoestadístico nacional (descarga de la versión  septiembre 2019) y el proyecto básico de información 2017 del mapa digital. 
+  
+3. Que el asistente sea capaz de depurar la información descargada para que sea susceptible de utilizarse en un SIG.
+
+4. Que el asistente conozca y utilice el procedimiento “Unión” en QGIS con base en el cual puede armar sus propias capas de información.
+
+__Bases de datos utilizadas__
+
+- [Cartografía Zona Metropolitana del Valle de México](https://drive.google.com/file/d/15-37xntCKG95_ONAJfsL8htCyIbqsPtY/view?usp=sharing)
+- [Población y educación de la Encuesta Intercensal 2015](https://drive.google.com/file/d/1AObP8YOuU4OIEovdmD1F1ybn1pCAUUgS/view?usp=sharing)
+- [Variables Censos Económicos 2019](https://drive.google.com/file/d/1v7bUrtu1uVGDhqaTNhMlL9hVAEkTieQH/view?usp=sharing)
+- [Base para unión en QGIS](https://drive.google.com/file/d/19Z_FSfj9Dzf2aXAmvLhZXFAab4Msac2I/view?usp=sharing)
+- [Resultado de la unión en QGIS](https://drive.google.com/file/d/1osM3r-vkxerFlSCdbDFT9kkQoxhVrVrM/view?usp=sharing)
+
+__Grabación de las sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1C7lXLj3gxYC-CSwl46uaK_OUDJCqFoC5/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1hD67yn4gZyMr-H6v-fMowXN2WmbZgEXA/view?usp=sharing)
+
+__Videos recomendados__
+
+[Luc Anselin: orígenes y desarrollo de la ciencia regional](https://youtu.be/g88ZYD429oo)
+
+
+##### SESIÓN 2
+
+__Objetivos__
+
+1. Que los asistentes comprendan y repliquen el proceso de instalación de R y R Studio
+
+2. Que los asistentes identifiquen cada una de las partes y funciones que integran la interfaz de R Studio y sean capaces de interactuar con ellas.
+
+3. Que los asistentes comiencen a escribir líneas de código para crear objetos e interactuar con ellos. Que los asistentes comprendan qué son los “paquetes de R” y cómo instalarlos y llamarlos a la sesión de R.
+
+4. Que los asistentes conozcan y utilicen los comandos para cargar y guardar bases de datos en la sesión de R y comiencen a interactuar con la base de datos cargada a través de comandos diversos.
+
+__Bases de datos utilizadas__
+
+Las bases de datos utilizadas corresponden a la información económica de los 417 municipios metropolitanos del país, según la delimitación de CONAPO (2018).
+
+- [Bases de datos e instrucciones](https://drive.google.com/file/d/1jpd669jTnqWfYV-X1v41FTju568UJ677/view?usp=sharing)
+- [Resultado unión (apilado)](https://drive.google.com/file/d/1-gtacxN0psw4FYPWZtldQOw_2cwvvOqi/view?usp=sharing)
+
+__Grabación de las sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1VFbwYQcydaWipDrr3tZr3hweykC7CRZv/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1-WIw2a-PxVS3XTRoVG0Iweqd_DEj1wS6/view?usp=sharing)
+
+##### SESIÓN 3
+
+__Objetivos__
+
+Que el asistente:
+
+1. Comprenda el enfoque de análisis exploratorio de datos como una herramienta para familiarizarse con la base de datos utilizada, describir y analizar la distribución de las variables en juego y encontrar asociaciones entre ellas.
+
+2. Conozca y utilice en R estadísticos de resumen e instrumentos gráficos que describan y sinteticen el comportamiento de las variables en juego
+
+__Base de datos utilizada__
+
+- [Pruebas cognitivas](https://drive.google.com/file/d/1zqJipT3IC6bqBKjmNr5pEgwQwGPTGOTM/view?usp=sharing)
+- [Instrucciones en R](https://drive.google.com/file/d/1IRBXJeCJccRyHQBf5bjrTOGVgwaHYBGU/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1VFbwYQcydaWipDrr3tZr3hweykC7CRZv/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1-WIw2a-PxVS3XTRoVG0Iweqd_DEj1wS6/view?usp=sharing)
+
+##### SESIÓN 4
+
+__Objetivos__
+
+Que el asistente:
+
+1. Recuerde las características y supuestos del modelo de regresión lineal, así como su utilidad e interpretación de sus resultados.
+
+2. Conozca los comandos y secuencia para el cálculo de modelos lineales en R, así como del diagnóstico de regresión.
+
+__Base de datos utilizada__
+
+- [Pruebas cognitivas](https://drive.google.com/file/d/1zqJipT3IC6bqBKjmNr5pEgwQwGPTGOTM/view?usp=sharing)
+- [Instrucciones en R](https://drive.google.com/file/d/1oaIDNu9GESMBbRX_2suW8dEQKYBhUve5/view?usp=sharing)
+- [Gráfica interactiva](https://drive.google.com/file/d/1iN9dl19H_W-durpHyoSH2Lw_9th53xut/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1A0_vdFKPH_8GvXiTmKUhzlMPEiU0l5Nv/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1JQQxdqLLtX_gq7pU-umcNNwyeDhl5VMU/view?usp=sharing)
+
+##### SESIÓN 5
+
+__Objetivos__
+
+Que el asistente:
+
+1. Ubique las principales medidas usadas en economía urbana y regional para el cálculo de
+Desigualdad regional
+2. Sea capaz de aplicar estas medidas en R a través del paquete REAT
+
+__Instrucciones__
+
+- [HTML con las indicaciones de la sesión](https://drive.google.com/file/d/1LuKNMSYLy346g65VSTAO_1vdXODVqL3-/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/17Of-HWcBM-KMB5oa3n6Bn7YDo6HIETfD/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1QP5Ky79gYMRChxjGVM1SRnAOPOmVfsyJ/view?usp=sharing)
+
+##### SESIÓN 6
+
+__Objetivos__
+
+Que el asistente:
+
+1. Ubique las principales medidas usadas en economía urbana y regional para el cálculo de
+  + Convergencia regional
+  + Medidas de aglomeración
+  + Crecimiento regional y análisis shift-share
+2. Sea capaz de aplicar estas medidas en R a través del paquete REAT
+
+
+__Instrucciones__
+
+[HTML con las indicaciones de la sesión](https://drive.google.com/file/d/1SXK9mcgPZDtXeYnCl4HImWAzn86JJQiA/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1u3Ud7WEP4u5a_1q5yT4uI45B3n6JJ-u7/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1zYWEMENS_g4_qm55yBYoBtBICVrxWHxn/view?usp=sharing)
+
+
+
+##### SESIÓN 7
+
+__Objetivos__
+
+
+Que el asistente:
+
+1. Conozca algunos de los tipos de mapas coropléticos más comunes usados para la representación de información espacialmente referenciada.
+
+2. Aprenda cómo construir dichos mapas en R a través de los paquetes sf, tmap, RColorBrewer y cartogram.
+
+__Base de datos utilizada__
+
+- [Valle de México: servicios de salud](https://drive.google.com/file/d/1NPhSzJx6rL6F73Dai7Wxj8-6_YKgzNO1/view?usp=sharing)
+- [Instrucciones en R](https://drive.google.com/file/d/1U31NymzFeFQmCWuI8MxV4OJ-ei9idjR2/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1W2eK-_19URlK8ANNYa-UA4HarrX0LG-W/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1_a20bbngVCCTexAoEddYBfvsKy0HUSb_/view?usp=sharing)
+
+
+
+##### SESIÓN 8
+
+__Objetivos__
+
+
+Que el asistente:
+
+1. Se familiarice con la estructura de una función en R.
+
+2. Aplique una función para la construcción de un mapa personalizado.
+
+__Base de datos utilizada__
+
+[Valle de México: servicios de salud](https://drive.google.com/file/d/1NPhSzJx6rL6F73Dai7Wxj8-6_YKgzNO1/view?usp=sharing)
+[Instrucciones en R](https://drive.google.com/file/d/1U31NymzFeFQmCWuI8MxV4OJ-ei9idjR2/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1PX4zFf7EzBDEbofZXXsYeQQV6FX9eIJH/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1x1kKXmzYxLTdWl22znoeec-yV0qUP7XV/view?usp=sharing)
+- [Formato propuesta crítica](https://drive.google.com/file/d/1EG1jJyQuKfMqDk2jgDE43z6qpcgtjUA6/view?usp=sharing)
+
+
+##### SESIÓN 9
+
+__Objetivos__
+
+
+Que el asistente:
+
+1. Conozca el concepto de autocorrelación espacial y sus implicaciones en el análisis de datos
+
+2. Comprenda la manera en que la estructura espacial es captada mediante la matriz de pesos espaciales y sus diferentes tipos.
+
+3. Aprenda a construir matrices de pesos espaciales en R
+
+__Base de datos utilizada__
+
+[Valle de México: servicios de salud](https://drive.google.com/file/d/1NPhSzJx6rL6F73Dai7Wxj8-6_YKgzNO1/view?usp=sharing)
+[Instrucciones en R](https://drive.google.com/file/d/1hAD9EJVicNhOLN_JtA1Ha1dzaW87CYsb/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1H6i-1lUfXPCpCPynVQis_rr1FOLVgFc5/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1SXbZiMnVfwxYBkj5knulXdFFeh_IwAdf/view?usp=sharing)
+
+
+##### SESIÓN 10
+
+__Objetivos__
+
+
+Que el asistente:
+
+1. Recuerde algunas de las funciones revisadas durante el curso en un ejercicio recopilatorio.
+
+2. Identifique la secuencia para análisis el análisis de información espacialmente referenciada y sea capaz de elegir entre un modelo de error espacial o de rezago espacial a partir de las pruebas de diagnóstico.
+
+3. A partir de un modelo lineal con MCO, estime en R las pruebas de diagnóstico entre dos modelos alternativos para el tratamiento de correlación espacial.
+
+__Base de datos utilizada__
+
+[Columbus](https://drive.google.com/file/d/1rF9oFmP54HmQX7zWOr25I3eQeZUFnhRB/view?usp=sharing)
+[Instrucciones en R](https://drive.google.com/file/d/1_gJxJAzUol8KYpMLXCjsKRTUteXhN8oj/view?usp=sharing)
+
+__Grabación de la sesión__
+
+- [Primera parte](https://drive.google.com/file/d/1UGoO-Y-hxS3-uylpmpfyvyDXg7dJmTHj/view?usp=sharing)
+- [Segunda parte](https://drive.google.com/file/d/1u7N-6l6yc7c-5mFiJj0URWWIbAgK5l0l/view?usp=sharing)
+
+
+
+Recuerde que, para obtener su constancia, debe:
+
+1. Realizar una reflexión sobre la utilidad de las herramientas aprendidas y redactarlo en este [formato](https://drive.google.com/file/d/1EG1jJyQuKfMqDk2jgDE43z6qpcgtjUA6/view?usp=sharing) y enviarlo al correo: japv@azc.uam.mx. 
+2. Responder este [formulario](https://forms.gle/93CA4MxKnzNdyfSR8) sobre su apreciación del curso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</body>

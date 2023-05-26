@@ -1,0 +1,14 @@
+<section id="recently-added">
+  <h2>Lo más reciente</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Título</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Aquí se agregarán las entradas más recientes en orden descendente -->
+    </tbody>
+  </table>
+</section>

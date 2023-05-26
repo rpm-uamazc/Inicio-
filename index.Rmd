@@ -1,0 +1,44 @@
+<body>
+  <div class="main">
+  
+### ¿Quiénes somos?
+
+Área de investigación del Departamento de Economía de la UAM Azcapotzalco, con actividad docente en licenciatura y posgrado.
+
+### Nuestro objetivo
+
+Diagnosticar los principales obstáculos competitivos y organizacionales del aparato productivo mexicano; contribuir al diseño de políticas específicas que apoyen el desarrollo productivo de empresas, y aportar información y análisis conceptual sobre los fenómenos asociados a la generación de capacidades y competencias productivas.
+
+### Nuestro objeto de estudio
+
+Estudio de las transformaciones de la economía mexicana en el contexto de la globalización, desde una perspectiva meso-económica y considerando aspectos económicos, políticos y sociales.
+
+Equipo académico de investigación RPM de la Universidad Autónoma Metropolitana, Unidad Azcapotzalco.
+
+### Equipo
+
+#### Jefa del área
+
+Dra. Josefina Robles Rodríguez.
+
+#### Académicos
+
+Dra. María Beatriz García Castro.\
+Dra. Mónica de la Garza Malo.\
+Dr. Juan Andrés Godínez Enciso.\
+Dr. Jaime Alberto Prudencio Vázquez (ORCID, Google Académico).\
+Dr. Edmar Salinas Callejas.\
+Dra. Beatriz Paloma Sánchez Cruz.
+
+#### Ayudantes de investigación
+
+Álvaro Martínez Rodríguez.\
+Leonardo Pérez Victorino
+
+#### Servicio social
+
+Susana Cuevas.\
+Guadalupe Icel.
+  
+  </div>
+</body>

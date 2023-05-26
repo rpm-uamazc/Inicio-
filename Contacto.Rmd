@@ -1,0 +1,41 @@
+<body>
+  <div class="main">
+### Contacto
+
+
+UAM Azcapotzalco
+
+[Dirección](https://www.google.com/maps?ll=19.503419,-99.186973&z=16&t=m&hl=es-419&gl=MX&mapclient=embed&cid=18087109895849217014) : Av. San Pablo Xalpa 180, Reynosa Tamaulipas, Azcapotzalco, 02200,Ciudad de México.
+
+Oficinas de Relaciones Productivas en México: Edificio H-O ,primer piso, cubículo Relaciones Productivas en México.
+
+Teléfono: 5318 9130 , ext. 117.
+
+Correo: rpm.azc@gmail.com
+
+
+
+#### __Directorio Relaciones Productivas en México__
+
+_Jefa del área_
+
+Dra. Josefina Robles Rodríguez   jrr@correo.azc.uam.mx 
+
+_Equipo Académico:_
+
+Dra. Mónica de la Garza Malo   mgm@azc.uam.mx
+
+Dra. María Beatriz García Castro   gcmb@azc.uam.mx
+
+Dr. Juan Andrés Godínez Enciso   jage@azc.uam.mx
+
+Dr. Jaime Prudencio Vázquez   japv@azc.uam.mx
+
+Dr. Edmar Salinas Callejas   sce@azc.uam.mx
+
+Dra. Paloma Sánchez Cruz   bpsc@azc.uam.mx  
+
+
+  </div>
+</body>
+

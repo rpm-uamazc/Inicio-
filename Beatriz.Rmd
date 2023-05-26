@@ -1,0 +1,22 @@
+<body>
+  <div class="main">
+  
+### Dra. María Beatriz García Castro.
+
+#### Publicaciones
+
+- García Castro, M. B. (2018). ANÁLISIS MESOECONÓMICO Y LOS ARREGLOS ORGANIZACIONALES REGIONALES EN RED. Revista Análisis Organizacional,Vol. 1,No. 10, 4-36.
+- García Castro, M. B. (2011). Estudios sobre México en la crisis mundial: escenario nacional tras dos décadas de apertura y desregulación. CDMX: UAM,Azcapotzalco.
+- García Castro, M. B, C. G. (2011). Políticas para impulsar conductas innovadoras de las PYMES en México. En Políticas para la innovación en las pequeñas y medianas empresas en América Latina (págs. 125-166). Santiago de Chile: Naciones Unidas.
+- García Castro, M. B, E. S. (2009). Lo Cotidiano del sector industrial en México:25 años de cambio estructural. El Cotidiano 156, 77-107.
+- García Castro, M. B, Z. C. (2009). El sector turístico mexicano frente a la crisis internacional. El Cotidiano 157, 101-107.
+- García Castro, M. B., Carranco Gallardo, Z., & Godínez Enciso, J. A. (2009). Localización de Arreglos Productivos Locales (APL). Contribuciones para el análisis regional. Economía y Sociedad, vol. XIV, núm. 24, 59-76.
+- García Castro, M. B., & Carranco Gallardo, Z. (2008). Concentración regional en Veracruz. Un enfoque de identificación de Aglomeraciones Productivas Locales. Análisis Económico, vol. XXIII, núm. 52, 291-310.
+- García Castro, M. B. (Marzo de 2006). La cooperación y el mejoramiento productivo en las aglomeraciones empresariales: El caso de la industria textil y de la confección en Aguascalientes. CDMX.
+- García Castro, M. B. (2004). Debilidades del sector manufacturero mexicano. El Cotidiano, vol. 19, núm. 123, 8-18.
+- García Castro, M. B. (2004). Panorama crítico para la industria textil y del vestido mexicana. El Cotidiano, vol. 20, núm. 127, 73-84.
+- García Castro, M. B., & Taboada Ibarra, E. L. (2002). Cambios industriales y empresas de menores dimensiones en las manufacturas mexicanas,1994-1999. Análisis Económico, vol. XVII, núm. 35, 129-159.
+García Castro, M. B., J. A. (s.f.). o MÉXICO NO TRATADO DE LIVRE COMÉRCIO MÉXICO-ESTADOS UNIDOS--CANADÁ: UMA NOTA INTRODUTÓRIA. 
+
+</div>
+</body>

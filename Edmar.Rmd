@@ -1,0 +1,31 @@
+<body>
+  <div class="main">
+  
+### Dr. Edmar Salinas Callejas.
+  
+#### Publicaciones
+
+- Callejas, E. S. (s.f.). Introducción. En Las MYPIME en México, Crecimiento , Financiamiento y Tecnología. SEP.
+- Callejas, E. S. (2016). La onda larga de los precios de alimentos 1990-2016. Economía Informa 401.
+- Callejas, E. S. (2009). Biocombustibles y Alimentos, en arbitraje. Depto. Economía.
+- Callejas, E. S. (2008). Construcción y Análisis de una Región Agrícola: la Región Zamorana. En Desarrollo Regional. UAM A.
+- Callejas, E. S. (2008). Del crecimiento al desarrollo en México 1988-2008. CLACSO.
+- Callejas, E. S. (2008). El sistema campesino mexicano: crisis, desestructuración y alternativas,. En u. a. Desde los colores del maíz. El Colegio de Michoacán.
+- Callejas, E. S. (2008). La acumulación industrial de la sustitución de importaciones en México: de la imposibilidad del desarrollo a la reproducción del subdesarrollo 1970-1976. Depto. de Economía UAM A.
+- Callejas, E. S. (2008). La reestructuración de la agricultura mexicana 1988-2008. Depto. de Economía UAM A.
+- Callejas, E. S. (2008). Del crecimiento al desarrollo en México 1988-2008. CLACSO.
+
+- Callejas, E. S. (2009). Biocombustibles y Alimentos, en arbitraje. Depto. Economía.
+- Callejas, E. S. (2008). Construcción y Análisis de una Región Agrícola: la Región Zamorana. En Desarrollo Regional. UAM A.
+
+- Callejas, E. S. (2008). La acumulación industrial de la sustitución de importaciones en México: de la imposibilidad del desarrollo a la reproducción del subdesarrollo 1970-1976. Depto. de Economía UAM A.
+- Callejas, E. S. (2008). La reestructuración de la agricultura mexicana 1988-2008. Depto. de Economía UAM A.
+- Callejas, E. S. (2007). Desarrollo y sustentabilidad . En Desarrollo sustentable y calidad de vida. UAEM, UACH, UNAM, UAM UPIICSA.
+- Callejas, E. S. (2007). La Transición de la Economía Mexicana 1988-2004. En Repensar la Teoría del Desarrollo en un contexto de Globalización. Fundación Celso Furtado-UAM, UFRJ.
+- Callejas, E. S. (2004). Balance de la Economía Mexicana, 1993-2004. El Cotidiano no 124.
+- Callejas, E. S. (2000). Regulación y desregulación en el caso del café. Análisis Económico, vol. XV, núm. 31.
+
+
+
+  </div>
+</body>

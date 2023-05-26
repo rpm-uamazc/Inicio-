@@ -1,0 +1,23 @@
+<body>
+  <div class="main">
+  
+### Dra. Josefina Robles Rodríguez.
+  
+#### Publicaciones
+
+- Robles Rodríguez Josefina, L. V. (2014). Características técnico productivas del Complejo Construcción. 
+- Robles Rodríguez Josefina, L. V. (2013). Estructura y desempeño del sector de la construcción en México. El Cotidiano, núm. 182, 105-116.
+- Robles Rodríguez Josefina, L. V. (2008). Introducción a la microeconomía. D.F.: UAM AZC.
+- Robles Rodríguez Josefina, E. T. (2006). Producción y Venta de Vehículos Automotores en México, Algunos hechos a considerar. El Cotidiano No. 137.
+Rodríguez, J. R. (2005). Ventajas competitivas de ser una organización inteligente; el caso de Cemex . El Cotidiano, núm. 130, 46-50.
+- Robles Rodríguez Josefina, J. A. (2005). Relaciones interempresa en México, algunas evidencias empíricas en México.
+- Robles Rodríguez Josefina, E. S. (2004). Balance de la Economía Mexicana 1994-2003. El Cotidiano núm. 125.
+- Robles Rodríguez Josefina, T. I. (2003). El sector textil y su estructura productiva (algunas consideraciones). En La Reestructuración Productiva de la Economía Mexicana de los años 90 (págs. 309-339). Eón.
+- Robles Rodríguez Josefina, T. I. (2003). Relocalización geográfica en la industria automotriz mexicana. . En La Reestructuración Productiva de la Economía Mexicana de los años 90 (págs. 165-229). México: Eón.
+- Robles Rodríguez Josefina.(2003). Sistemas productivos locales incompletos: vacíos relacionales en el subsector alimentario. Análisis Económico núm. 40.
+- Robles Rodríguez Josefina, L. V. (2001). Estructura del mercado laboral en la industria de materiales para la construcción. 
+- Robles Rodríguez Josefina, L. V. (2001). Evolución del Empleo en el Sector Automotriz 1994-1999. 
+- Robles Rodríguez Josefina, R. E. (2001). Análisis sobre el sector externo de la industria de la Construcción. 
+- Robles Rodríguez Josefina, T. I. (2000). Estudios sectoriales de las manufacturas. Eón.
+  </div>
+</body>

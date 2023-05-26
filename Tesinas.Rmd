@@ -1,0 +1,130 @@
+<body>
+  <div class="main">
+### Tesinas
+
+#### Trabajos terminales del Área de Concentración Economía de la Innovación: empresas, redes y territorio
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Una aproximación espacial de la industria aeroespacial en México. Análisis por microregiones.
+
+Autor:  López Almazo, José Eduardo y  Sánchez Bastida, Daniela
+
+Asesor:  Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título:  El turismo como motor de crecimiento en Quintana Roo 1998-2018.
+
+Autor:  Martínez Rodríguez, Álvaro
+
+Asesor: Dra. Mónica María  Goreti  De la Garza Malo.
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Desigualdad del ingreso corriente en México: un análisis a nivel entidad federativa, 2016 – 2020.
+
+Autor:  Barragán Torres, Jonnathan Alberto
+
+Asesor:  Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título:  Economías De Aglomeración De La Actividad Económica Industrial Alimentaria Y Química En Los Municipios De La Zona Metropolitana Del Valle De México En Los Últimos 20 Años
+
+Autor: Hernández Loeza, Alexis Gibran y Villalobos Ojeda, Ailed Jocelyn
+
+Asesor:  Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título:  Economías De Aglomeración En La Manufactura: Una Exploración De La Fabricación De Maquinaria Y Equipo En Las Microrregiones De México
+
+Autor: Ortiz Fontes, Edwin Hazael 
+
+Asesor:  Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Infraestructura social y productiva a nivel metropolitano: un ejercicio con SIG para Toluca, Querétaro y Mérida
+
+Autor: Salinas Ayala, Betzabeth Sarai 
+
+Asesor:  Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Modificaciones en la organización espacial de la cadena eléctrico electrónica en México 1998-2018
+
+Autor: Chávez García, Jessica y Salgado Ruiz, Lucero
+
+Asesor: Dra. Mónica María Goreti De la Garza Malo
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: El emprendimiento como estrategia de desarrollo económico
+
+Autor: Sánchez García, Brenda Lizbeth 
+
+Asesor: Dra. Beatriz Paloma Sánchez Cruz
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: El impacto económico de la industria automotriz en el estadode Puebla: durante el periodo 2013-2019
+
+Autor: Morales Pérez, José Armando 
+
+Asesor: Mtro. Alejandro Buendía Rice
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Productividad laboral en el sector servicios: un análisis del comercio al por
+mayor en el norte de México, 1998-2018
+
+Autor: Hernández Cornejo,  Jessica Lizbeth y  Pérez Victorino, Leonardo
+
+Asesor: Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: El clúster automotriz y su relación con el desarrollo ycrecimiento económico del estado de Guanajuato 2008-2018
+
+Autor: Carrillo Ruiz, Alina 
+
+Asesor: Dr. Cesar Daniel Alvarado Gutiérrez
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Efectos de la política industrial en la desindustrialización de la Ciudad de México
+
+Autor: Buyoli Saavedra, Xavier  y León Vázquez, María de Jesús 
+
+Asesor: Dra. Beatriz Paloma Sánchez Cruz
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Análisis espacial de la gentrificación y su efecto en la desigualdad económica de las alcaldías Cuauhtémoc y Benito Juárez en la Ciudad de México, 2000-2020
+
+Autor: Andrade Vela,  Ruben 
+
+Asesor: Dra. Mónica María Goreti De la Garza Malo
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Productividad y especialización sectorial de las MiPymes en la Ciudad de México y el Estado de México. Un estudio comparativo, 2003-2018.
+
+Autor: Anaya Anaya, Berenice y Moreno Feliciano, Norma Patricia
+
+Asesor: Dra. Beatriz Paloma Sánchez Cruz
+
+-----------------------------------------------------------------------------------------------------
+
+##### Título: Aglomeraciones industriales del sector aeroespacial y desarrollo regional en las microrregiones de México, 2010-2020
+
+Autor: Aguirre Loaria,  Astrid  y Rosario Barragán, Marco Uriel 
+
+Asesor: Dr. Jaime A. Prudencio Vázquez
+
+-----------------------------------------------------------------------------------------------------
+  </div>
+</body>

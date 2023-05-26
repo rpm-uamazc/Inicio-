@@ -1,0 +1,23 @@
+<body>
+  <div class="main">
+  
+### Dr. Jaime Alberto Prudencio Vázquez
+  
+#### Publicaciones
+  
+- Vázquez, Jaime A., S. O. (2021). Productividad y desarrollo económico en México, una aproximación territorial: 1998-2018. Economía Informa 427, 4-25.
+- Vázquez, Jaime A. (2020). La productividad en las industrias manufactureras en las zonas industriales de desarrollo como determinante de la competitividad ramal y el desarrollo regional. Facultad de Estudios Superiores Acatlán, UNAM.
+- Vázquez, Jaime A., E. F. (2021). PRODUCTIVITY AND AGGLOMERATION ECONOMIES IN THE MANUFACTURING OF THE METROPOLITAN AREAS OF MEXICO, 1998‐2018. Regional Science Policy & Practice.
+- Vázquez, Jaime A.,J.A. (2020). Economías de proximidad, interacción social y vulnerabilidad económica: propuesta metodológica para la determinación de áreas de seguridad en asentamientos populares. El Cotidiano núm.. 222 vol.36, 41-56.
+- Vázquez, Jaime A. (2018). Crisis y análisis regional. En Desigualdad regional, pobreza y migración. Universidad Nacional Autónoma de México y Asociación Mexicana de Ciencias para el Desarrollo Regional AC, Coeditores.
+- Vázquez, Jaime A., L. Q. (2016). Inequality and Spatial Convergence in the Mexico City Metropolitan Area, 1989-2010. Journal of Reviews on Global Economics 5, 69-83.
+- Vázquez, Jaime A. (2015). Dinámica de la desigualdad y polarización en las entidades de México, 1970-2010. En Crisis Neoliberal y Alternativas de Izquierda en América Latina II: México (pág. 165). SIDPPCC, S.C.
+- Vázquez, Jaime A., G. A. (2016). LOCALIZACIÓN Y ESTRUCTURA DE LA MANUFACTURA EN LAS ZONAS INDUSTRIALES DE DESARROLLO 1989-2014. Asociación Mexicana de Ciencias para el Desarrollo Regional, A. C.
+- Vázquez, Jaime A. (2014). Una propuesta de regionalización para la Zona Metropolitana de la Ciudad de México con el método máx.-p. En Técnicas modernas de análisis regional Vol. 5 (págs. 289-313). UNAM-FES Acatlán-Plaza y Valdés México.
+- Vázquez, Jaime A., J. A. (2014). Tasa de plusvalía y desvalorización de la fuerza de trabajo en América Latina: México, Colombia, Brasil, Chile y Argentina. En Trabajo y explotación en América Latina: Brasil y México (págs. 251-287). UNICAMP-FES Acatlán-Plaza y Valdés.
+- Vázquez, Jaime A.. (2013). Crecimiento económico y desigualdad en la zona metropolitana de la Ciudad de México, 1989-2010. Facultad de Estudios Superiores Acatlán, UNAM.
+- Vázquez, Jaime A. (2013). Economía y crimen. Boletín Ciudades y Regiones #2 La Violencia en México y sus Impactos Regionales.
+- Vázquez, Jaime A. (2013). Reflexiones en torno a la Reforma Financiera. Boletín Ciudades y Regiones # 4 Reforma Financiera y Regiones en México.
+
+  </div>
+</body>

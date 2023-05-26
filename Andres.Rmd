@@ -1,0 +1,23 @@
+<body>
+  <div class="main">
+  
+### Dr. Juan Andrés Godínez Enciso.
+  
+#### Publicaciones
+
+- Enciso, J. A., L. R. (2016). Evolución y cambio industrial en las Zonas Metropolitanas del Valle de México y de Toluca, 1993-2008. Análisis Económico, vol. XXXI, núm. 77, 115-146.
+- Enciso, J. A. (2013). Localización productiva global en la cadena de la computación: la búsqueda de activos de innovación y ventajas competitivas locales. Reflexiones sobre el caso mexicano. Revista Pymes, Innovación y Desarrollo Vol. 1, No. 2, 3-35.
+- Enciso, J. A., J. R. (2011). Las condiciones competitivas e innovativas de las empresas del Área industrial de Azcapotzalco. UAM-AzcapotzaIco.
+- Enciso, J. A., L. L. (2011). Explotación y exploración del conocimiento productivo en las organizaciones. El caso de la empresa “M”. En Estrategias para la competitividad ,Empresas, sectores y regiones (págs. 93-122).
+- Enciso, J. A. (2010). Agrupamientos productivos y condiciones de desarrollo : el agrupamiento industrial de Azcapotzalco y otros estudios de caso. D.F. ,UAM-Azcapotzalco.
+- Enciso, J. A. (2007). Brasil y México: especialización productiva diferenciada y dependencia estructural "renovada" en un contexto económico globalizado. Análisis Económico, vol. XXII, núm. 49,, 5-30.
+- Enciso, J. A., M. C. (2006). Desverticalización productiva, outsourcing y efectos sobre el empleo en la relación México-Estados Unidos 1987-2003. Aportes, Revista de la Facultad de Economía, BUAP, Año XI, Número 33, 27-36.
+- Enciso, J. A. (2005). Produção Outsourcing, esquemas restringidos na transferência de informação e aprendizado produtivo inter-firma: O caso da cadeia da computação no México. São Paulo.
+- Enciso, J. A. (2004). Los agrupamientos productivos en México y la dimensión de la política industrial actual. El Cotidiano, vol. 20, núm. 126.
+- Enciso, J. A. (2000). Redes empresariales: asimetrías y opciones de aprendizaje. Análisis Económico, vol. XV, núm. 31, 165-183.
+- Enciso, J. A., A. G. (1995). Perspectivas de la empresa y la economía mexicana frente a la reestructuración productiva. UAM Azcapotzalco.
+- Enciso, J. A., L. L. (s.f.). El conocimiento productivo: su relevancia para el desarrollo empresarial.
+- Enciso, J. A. (s.f.).Desarrollo económico y deterioro ambiental: una visión de conjunto y aproximaciones al caso mexicano . Gestión y estrategia, 57-71.
+
+  </div>
+</body>
