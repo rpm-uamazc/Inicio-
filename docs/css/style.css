@@ -129,6 +129,7 @@
 .curso:hover{
   opacity: 0.5;
 }
+ /* Estilo del contenedor principal */
 .main {
   background: transparent;
   font-size: 14px;
@@ -232,10 +233,20 @@
   border-bottom-right-radius: 5px;
 }
 #pie2 p {
-  color: lightgrey;
+  color: #6a6a6b;
 }
 .lista{
   align-content: center;
   justify-content: center;
+  text-align: center;
+}
+button, input, select, textarea {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
   text-align: center;
 }
