@@ -13,7 +13,7 @@
 
 <title>SCIZM.knit</title>
 
-<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -32,13 +32,12 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
-<title> Relaciones Productivas </title>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="icon" href="RPM.png">
 <style>
   .hero-image {
-    background-image: url("css/Imagenes/headerbg.png");
+    background-image: url("css/Imagenes/camp.png");
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen */
     /* Añade cualquier otra propiedad de estilo que desees para el contenedor */
@@ -263,7 +262,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><div id="logo-container"><img id="logo" style="width: 35px;" src="RPM.png" /></div></a>
+      <a class="navbar-brand" href="index.html"><div id="logo-container"><img id="logo" style="width: 35px;" src="icon.ico" /></div></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -350,6 +349,7 @@ $(document).ready(function () {
 <html>
 <body>
 <div class="main">
+
 <h1>
 Sistema de Consulta de Información de Zonas Metropolitanas (SCIZM)
 </h1>
@@ -357,9 +357,27 @@ Sistema de Consulta de Información de Zonas Metropolitanas (SCIZM)
 ¿Qué es el SCIZM?
 </h3>
 <p>
-Es una opción que te permite conocer aspectos socidemográficos y
-económicos sobre cada una de las 76 zonas metropolitanas de México.
-</p>
+<p>El Sistema de Consulta de Información de Zonas Metropolitanas (SCIZM)
+tiene por objeto proporcionar información sociodemográfica y económica
+sobre las 74 Zonas Metropolitanas de México delimitadas por SEDATU,
+CONAPO e INEGI en 2015. Proporciona visualizaciones de información en
+diferentes formatos, como gráficos, tablas y mapas, para el Censo de
+Población y Vivienda 2020 (CPV2020), para el Índice de Desarrollo Humano
+del PNUD y del Índice de Rezago Social del CONEVAL. Además, se presenta
+información sobre especialización económica por gran sector para los
+Censos Económicos de 1999, 2004, 2009, 2014 y 2019, ambos publicados por
+el Instituto Nacional de Estadística y Geografía (INEGI). Para cada zona
+metropolitana se ofrecen datos sobre tres grandes aspectos:</p>
+<ol style="list-style-type: decimal">
+<li><p>General, como extensión territorial y composición
+municipal</p></li>
+<li><p>Sociodemográfica, como grupos etarios, características de la
+vivienda, educación, salud e indicadores de desarrollo.</p></li>
+<li><p>Información sobre especialización económica, como participación
+relativa por gran sector, coeficiente de especialización, el Índice de
+Especialización de Hirschman-Herfindahl y su inverso.</p>
+</p></li>
+</ol>
 <h3>
 ¿Qué espero encontrar aquí?
 </h3>
@@ -385,20 +403,22 @@ Selecciona una zona metropolitana
 <option value="htmlZM\\5.02.html">5.02</option>
 <option value="htmlZM\\5.01.html">5.01</option>
 <option value="htmlZM\\5.03.html">5.03</option>
-<option value="htmlZM\\6.01.html">6.01</option>
 <option value="htmlZM\\6.02.html">6.02</option>
-<option value="htmlZM\\7.01.html">7.01</option>
+<option value="htmlZM\\6.01.html">6.01</option>
 <option value="htmlZM\\7.02.html">7.02</option>
+<option value="htmlZM\\7.01.html">7.01</option>
 <option value="htmlZM\\8.01.html">8.01</option>
 <option value="htmlZM\\8.02.html">8.02</option>
 <option value="htmlZM\\8.03.html">8.03</option>
 <option value="htmlZM\\8.04.html">8.04</option>
 <option value="htmlZM\\9.01.html">9.01</option>
 <option value="htmlZM\\10.01.html">10.01</option>
+<option value="htmlZM\\22.01.html">22.01</option>
 <option value="htmlZM\\11.01.html">11.01</option>
 <option value="htmlZM\\11.02.html">11.02</option>
 <option value="htmlZM\\11.03.html">11.03</option>
 <option value="htmlZM\\11.04.html">11.04</option>
+<option value="htmlZM\\16.01.html">16.01</option>
 <option value="htmlZM\\11.05.html">11.05</option>
 <option value="htmlZM\\12.01.html">12.01</option>
 <option value="htmlZM\\12.02.html">12.02</option>
@@ -408,9 +428,8 @@ Selecciona una zona metropolitana
 <option value="htmlZM\\14.01.html">14.01</option>
 <option value="htmlZM\\14.02.html">14.02</option>
 <option value="htmlZM\\14.03.html">14.03</option>
-<option value="htmlZM\\15.01.html">15.01</option>
 <option value="htmlZM\\15.02.html">15.02</option>
-<option value="htmlZM\\16.01.html">16.01</option>
+<option value="htmlZM\\15.01.html">15.01</option>
 <option value="htmlZM\\16.02.html">16.02</option>
 <option value="htmlZM\\16.03.html">16.03</option>
 <option value="htmlZM\\17.01.html">17.01</option>
@@ -420,9 +439,8 @@ Selecciona una zona metropolitana
 <option value="htmlZM\\20.01.html">20.01</option>
 <option value="htmlZM\\20.02.html">20.02</option>
 <option value="htmlZM\\21.01.html">21.01</option>
-<option value="htmlZM\\21.02.html">21.02</option>
 <option value="htmlZM\\21.03.html">21.03</option>
-<option value="htmlZM\\22.01.html">22.01</option>
+<option value="htmlZM\\21.02.html">21.02</option>
 <option value="htmlZM\\23.01.html">23.01</option>
 <option value="htmlZM\\23.02.html">23.02</option>
 <option value="htmlZM\\24.01.html">24.01</option>
@@ -433,23 +451,23 @@ Selecciona una zona metropolitana
 <option value="htmlZM\\26.02.html">26.02</option>
 <option value="htmlZM\\26.03.html">26.03</option>
 <option value="htmlZM\\27.01.html">27.01</option>
-<option value="htmlZM\\28.01.html">28.01</option>
+<option value="htmlZM\\28.05.html">28.05</option>
 <option value="htmlZM\\28.02.html">28.02</option>
 <option value="htmlZM\\28.03.html">28.03</option>
 <option value="htmlZM\\28.04.html">28.04</option>
-<option value="htmlZM\\28.05.html">28.05</option>
+<option value="htmlZM\\28.01.html">28.01</option>
 <option value="htmlZM\\29.01.html">29.01</option>
 <option value="htmlZM\\30.01.html">30.01</option>
-<option value="htmlZM\\30.02.html">30.02</option>
-<option value="htmlZM\\30.03.html">30.03</option>
-<option value="htmlZM\\30.04.html">30.04</option>
-<option value="htmlZM\\30.05.html">30.05</option>
-<option value="htmlZM\\30.06.html">30.06</option>
 <option value="htmlZM\\30.07.html">30.07</option>
+<option value="htmlZM\\30.03.html">30.03</option>
+<option value="htmlZM\\30.05.html">30.05</option>
 <option value="htmlZM\\30.08.html">30.08</option>
+<option value="htmlZM\\30.06.html">30.06</option>
+<option value="htmlZM\\30.02.html">30.02</option>
+<option value="htmlZM\\30.04.html">30.04</option>
 <option value="htmlZM\\31.01.html">31.01</option>
 <option value="htmlZM\\32.01.html">32.01</option></p>
-</select>
+<p></select></p>
 </form>
 </div>
 <p>
@@ -457,9 +475,9 @@ Si no conoces las claves de la zona metropolitana que buscas,
 <a href="htmlZM\\ZM.html" target="_blank">!da clic aquí!</a>.
 </p>
 <p>
-<a href="https://docs.google.com/spreadsheets/d/1DFuaziPQsspFiGs7d0UvUT5TVWJuemNt113SrDESkSs/edit#gid=1789379895" target="_blank">Aqui</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1DFuaziPQsspFiGs7d0UvUT5TVWJuemNt113SrDESkSs/edit#gid=1789379895" target="_blank">Aqui</a>
 puedes consultar toda la información disponible en el sitio sobre zonas
-metropolitanas. |
+metropolitanas. |</p>
 </div>
 </body>
 
