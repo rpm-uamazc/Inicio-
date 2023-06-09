@@ -15,7 +15,9 @@ editor_options:
 
 <h3>¿Qué es el SCIZM?</h3>
 
-<p>El Sistema de Consulta de Información de Zonas Metropolitanas (SCIZM)
+<p>
+
+El Sistema de Consulta de Información de Zonas Metropolitanas (SCIZM)
 tiene por objeto proporcionar información sociodemográfica y económica
 sobre las 74 Zonas Metropolitanas de México delimitadas por SEDATU,
 CONAPO e INEGI en 2015. Proporciona visualizaciones de información en
@@ -34,7 +36,9 @@ metropolitana se ofrecen datos sobre tres grandes aspectos:
 
 3.  Información sobre especialización económica, como participación
     relativa por gran sector, coeficiente de especialización, el Índice
-    de Especialización de Hirschman-Herfindahl y su inverso.</p>
+    de Especialización de Hirschman-Herfindahl y su inverso.
+
+    </p>
 
 <h3>¿Qué espero encontrar aquí?</h3>
 
@@ -131,7 +135,7 @@ bajar y consultar la base completa por tu cuenta.</p>
 :::
 
 <p>Si no conoces las claves de la zona metropolitana que buscas,
-<a href="htmlZM\\ZM.html" target="_blank">!da clic aquí!</a>.</p>
+<a href="htmlZM\\ZM.html" target="_blank">da clic aquí</a>.</p>
 
 <p>
 
