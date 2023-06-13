@@ -1,7 +1,7 @@
 name: "Relaciones productivas en México"
 output_dir: "docs"
 navbar:
-  title: '<div id="logo-container"><img id="logo" style="width: 35px;" src="icon.ico" /></div>'
+  title: '<div id="logo-container"><img id="logo" style="width: 35px;" src="RPM.png" /></div>'
   left:
     - text: "Inicio"
       href: index.html
