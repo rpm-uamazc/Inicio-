@@ -2,16 +2,15 @@
   <div class="main">
 ### Docencia
 
-El modelo de la Universidad Autónoma Metropolitana permite la articulación de la investigación y la docencia a través de la figura del profesor-investigador. En nuestra Área, la labores docente abarca la licenciatura y el posgrado.
+El modelo de la Universidad Autónoma Metropolitana permite la articulación de la investigación y la docencia a través de la figura del profesor-investigador. En nuestra Área, las labores docentes abarcan la licenciatura y el posgrado.
 
-### __Oferta educativa__ 
 
-#### ___Licenciatura___
+#### ___Licenciatura en economía___
 
-- Eje curricular de Microeconomía
-- Economía de la Innovación: empresas, redes y territorio: es una de las      Áreas de Concentración (AC) en la Licenciatura de Economía que se cursa     los dos últimos trimestres. Al cursar esta AC, el alumno es capaz de        comprender la relación que tiene la innovación y el territorio en los       procesos de desarrollo económico y social, además puede utilizar las        herramientas básicas para medir su impacto en las distintas dinámicas       locales y regionales.
+- Eje curricular de Microeconomía.
+- Economía de la Innovación: empresas, redes y territorio. Es una de las      Áreas de Concentración (AC) en la Licenciatura de Economía que se cursa     los dos últimos trimestres. Al cursar esta AC, el alumno es capaz de        comprender la relación que tiene la innovación y el territorio en los       procesos de desarrollo económico y social, además puede utilizar las        herramientas básicas para medir su impacto en las distintas dinámicas       locales y regionales.
   
-  Las Unidades de Enseñanza-Aprendizaje (UEA) son:
+  Las Unidades de Enseñanza-Aprendizaje (UEA) de nuestra area de concentración son:
 
   XI trimestre
   
