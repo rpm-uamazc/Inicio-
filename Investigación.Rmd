@@ -2,7 +2,7 @@
   <div class="main">
 ### Investigación
 
-La investigación del Área de relaciones productivas en México se centra en el estudio de las condiciones competitivas del aparato productivo mexicano en un contexto globalizado desde una perspectiva sectorial y espacial.
+La investigación del Área de Relaciones Productivas en México se centra en el estudio de las condiciones competitivas del aparato productivo mexicano en un contexto globalizado desde una perspectiva sectorial y espacial.
 
 El trabajo de investigación se desarrolla de forma articulada, a partir de los trabajos y líneas de sus miembros que tienen en común el estudio desde una perspectiva sistémica de los procesos de innovación, territorial e institucional.
 
@@ -16,14 +16,12 @@ El trabajo de investigación se desarrolla de forma articulada, a partir de los 
 -   Análisis del desarrollo regional industrial desde una perspectiva regulacionista: conformación y estabilidad de los espacios (Dra. Paloma Sánchez Cruz).
 -   Productividad y desarrollo regional en las concentraciones industriales de México (Dr. Jaime Prudencio).
 -   Ventajas competitivas, redes de conocimiento e innovación en la Región Centro de México (Dra. Mónica de la Garza).
--   Cadenas globales de valor en México: el sector aeroespacial en Querétaro (Mtro. Alejandro Buendía).
 -   Evolución y trayectorias industriales en las zonas metropolitanas de México (Dr. Andrés Godínez Enciso).
 
 #### **Servicio Social**
 
-[**Proyectos de Investigación Servicio Social**](SSocial.html)
 
-Si cuentas con 70% de tus créditos académicos y tienes interés en los diferentes ejes temáticos que se manejan en el Área, envíanos un correo a [rpm.azc\@gmail.com](mailto:rpm.azc@gmail.com){.email} para darte la información referente a los proyectos de investigación actualmente en marcha y a los que te podrías sumar.
+Si cuentas con 70% de tus créditos académicos y tienes interés en los diferentes ejes temáticos que se manejan en el Área, envíanos un correo a [repromex@azc.uam.mx](mailto:repromex@azc.uam.mx){.email} para darte la información referente a los proyectos de investigación actualmente en marcha y a los que te podrías sumar.
 
 Es importante que revises también la página de [Servicios Escolares](https://serviciosocialdcsh.azc.uam.mx/) para conocer el proceso administrativo.
   </div>

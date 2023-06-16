@@ -2,14 +2,7 @@
   <div class="main">
 ### Cursos
 
-Conoce nuestros cursos de actualización disponibles, puedes obtener constancia con valor curricular al realizarlos y son gratuitos.
+Mantente atento a la sección de avisos para conocer los cursos que se impartirán próximamente en el área
 
-Sincrónicos:
-
-- [Curso de actualización de Excel trimestre 21O](EXCEL.html)
-
-Asincrónicos:
-
-- [Curso Software R](CursoR.html)
   </div>
 </body>

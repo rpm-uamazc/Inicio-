@@ -10,16 +10,5 @@ Gradualmente iremos incorporando más información, en la medida en que las base
 
 - [ENIGH: Tabulados básicos seleccionados y bases geográficas](ENIGH.html)
 
-Curso de Excel
-
-- [Bases de datos para el Curso de actualización de Excel](EXCEL.html)
-
-Modelos espaciales con GeoDa
-
-- [Covid19 en el Valle de México](https://drive.google.com/file/d/1nIePNgrLdsPOuxXxTHasNTIMOvDYWLpl/view?usp=sharing)
-- [Gasto agua manufactura](https://drive.google.com/file/d/1v1z4EnX1w-uBhQPC-CIEwFj4iQwGljL1/view?usp=sharing)
--   [Áreas geoestadísticas municipales](https://drive.google.com/file/d/1HaLqny95k-rDbu3sMDYH9MhGE_FI0tyh/view?usp=sharing)
-- [Sector 72 centro de México](https://drive.google.com/file/d/1LOec70Nie4c0RFuvKWh2jsvgQ_ip-wYn/view?usp=sharing)
-
   </div>
 </body>

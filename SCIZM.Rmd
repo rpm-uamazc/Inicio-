@@ -139,10 +139,6 @@ bajar y consultar la base completa por tu cuenta.</p>
 
 <p>
 
-<a href="https://docs.google.com/spreadsheets/d/1DFuaziPQsspFiGs7d0UvUT5TVWJuemNt113SrDESkSs/edit#gid=1789379895" target="_blank">Aqui</a>
-puedes consultar toda la información disponible en el sitio sobre zonas
-metropolitanas. \|
-
 </div>
 
 </body>
