@@ -3,6 +3,52 @@
   <h2>AVISOS</h2>
   <p> Se creó la página web </p>
   <p> Se incorporó el menu para Bases de datos y SCIZM </p>
+<a href="#" onclick="expandirImagen(event, 'imagenExpandible1')">
+  <img src="css/imagenes/coloquio.png" class="expandible" alt="Imagen" id="imagenExpandible1">
+</a>
+
+<style>
+  .expandible {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .expandible.expandida {
+    transform: scale(4); /* Cambia el valor según el nivel de expansión deseado */
+  }
+</style>
+
+<script>
+  function expandirImagen(event, imagenId) {
+    event.preventDefault();
+    var imagen = document.getElementById(imagenId);
+    imagen.classList.toggle('expandida');
+  }
+</script>
+
+<a href="#" onclick="expandirImagen(event, 'imagenExpandible2')">
+  <img src="css/imagenes/foro.png" class="expandible" alt="Imagen" id="imagenExpandible2">
+</a>
+
+<style>
+  .expandible {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  .expandible.expandida {
+    transform: scale(4); /* Cambia el valor según el nivel de expansión deseado */
+  }
+</style>
+
+<script>
+  function expandirImagen(event, imagenId) {
+    event.preventDefault();
+    var imagen = document.getElementById(imagenId);
+    imagen.classList.toggle('expandida');
+  }
+</script>
+
   </div>
   
   <div class = "rec2">
