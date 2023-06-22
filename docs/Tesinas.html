@@ -319,25 +319,77 @@ $(document).ready(function () {
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
-<div class="reciente">
-  <div class="rec1">
-  <h2>AVISOS</h2>
-  <p> Se creó la página web </p>
-  <p> Se incorporó el menu para Bases de datos y SCIZM </p>
+<body>
+  <div class="content">
+    <div class="reciente">
+      <div class="rec1">
+        <h2>AVISOS</h2>
+        <p>Se creó la página web</p>
+        <p>Se incorporó el menú para Bases de datos y SCIZM</p>
+         <a href="https://jaime-pru.github.io/Analisis-de-datos-espaciales/">
+         <img src="css/Imagenes/analisis.png" alt="nalisis de datos espaciales">
+      </a>
+        <a href="#" onclick="expandirImagen(event, 'imagenExpandible1')">
+          <img src="css/Imagenes/coloquio.png" class="expandible" alt="Imagen" id="imagenExpandible1">
+        </a>
+
+        <style>
+          .expandible {
+            cursor: pointer;
+            transition: transform 0.3s;
+          }
+
+          .expandible.expandida {
+            transform: scale(4); /* Cambia el valor según el nivel de expansión deseado */
+          }
+        </style>
+
+        <script>
+          function expandirImagen(event, imagenId) {
+            event.preventDefault();
+            var imagen = document.getElementById(imagenId);
+            imagen.classList.toggle('expandida');
+          }
+        </script>
+
+        <a href="#" onclick="expandirImagen(event, 'imagenExpandible2')">
+          <img src="css/Imagenes/foro.png" class="expandible" alt="Imagen" id="imagenExpandible2">
+        </a>
+      </div>
+      
+     
+
+
+      <div class="rec2">
+        <h2>NOVEDADES</h2>
+        <p>Aquí vamos a agregar lo más reciente.</p>
+      </div>
+
+      <div class="cursos">
+        <a href="Cursos.html">
+          <img class="curso" src="css/Imagenes/Cursos.png" alt="Cursos">
+          <p>¡Entra aquí para ver nuestros cursos!</p>
+        </a>
+      </div>
+    </div>
   </div>
-  
-  <div class = "rec2">
-  <h2>NOVEDADES</h2>
-      <p>Aqui vamos a agregar lo más reciente.</p>
-    
-  </div>
-  <div class="cursos">
-  <a href="Cursos.html">
-  <img class="curso"  src="css/Imagenes/Cursos.png" alt="Cursos">
-  <p>¡Entra aquí para ver nuestros cursos!</p>
-  </a>
-</div>
-</div>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var pie = document.getElementById("pie");
+      var alturaVentana = window.innerHeight;
+      var alturaContenido = document.documentElement.scrollHeight;
+      var scrollVertical = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+      if ((alturaContenido - alturaVentana) <= (scrollVertical + 50)) { // Cambia el valor 50 según tus necesidades
+        pie.style.bottom = "0";
+      } else {
+        pie.style.bottom = "";
+      }
+    });
+  </script>
+</body>
+</html>
 
 <div id="header">
 
